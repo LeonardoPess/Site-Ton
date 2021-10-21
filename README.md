@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-<p align="center"><b>Site Ton</b> foi desenvolvido com HTML, CSS E JAVASCRIPT, um site dinâmico e bem amigável com diversas funcionalidade</p>
+<p align="center"><b>Site Ton</b> foi desenvolvido com HTML, CSS E JAVASCRIPT, um site dinâmico e bem amigável com diversas funcionalidades</p>
 
 <p align="center">
    <a href="https://www.linkedin.com/in/leonardo-pessoa-5733121b5/">
