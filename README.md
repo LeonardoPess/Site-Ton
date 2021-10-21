@@ -26,7 +26,7 @@
   <img src="home.png">
 </p>
 
-<p align="center">Um site em que consegui colocar muito aprendizado em prática, desde coisas simples até as mais avançadas e me desafiando com novos desenvolvimentos e melhorando os conhecimentos que já tinha práticado antes!</p>
+<p align="center">Um site onde eu consegui colocar muito aprendizado em prática, desde coisas simples até as mais avançadas e me desafiando com novos desenvolvimentos e melhorando os conhecimentos que já tinha práticado antes!</p>
 
 ## Demo
 https://leonardopess.github.io/Calculadora-de-taxa/
