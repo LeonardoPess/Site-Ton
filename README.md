@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/LeonardoPess/Site-Ton">
+  <img src="home">
 </p>
 
 <p align="center">Um site em que consegui colocar muito aprendizado em prática, desde coisas simples até as mais avançadas e me desafiando com novos desenvolvimentos e melhorando os conhecimentos que já tinha práticado antes!</p>
