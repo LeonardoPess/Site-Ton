@@ -1,10 +1,10 @@
-<?php
+<!-- <?php
     $plano = @$_GET['plano'];
     $plano1;$plano2;$plano3;
     if ($plano == 1 || $plano == null) { $plano1 = 'selected'; };
     if ($plano == 2) { $plano2 = 'selected'; };
     if ($plano == 3) { $plano3 = 'selected'; };
-  ?>
+  ?> -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -43,9 +43,9 @@
       <nav class="desktop-menu">
         <div class="planos">
           <ul>
-            <li><a class="<?= $plano1 ?>" data-plano="1" Giga Ton>Giga Ton</a></li>
-            <li><a class="<?= $plano2 ?>" data-plano="2">Mega Ton</a></li>
-            <li><a class="<?= $plano3 ?>" data-plano="3">Ton Básico</a></li>
+            <li><a class="selected" data-plano="1" Giga Ton>Giga Ton</a></li> <!-- <?= $plano1 ?> -->
+            <li><a class="" data-plano="2">Mega Ton</a></li><!-- <?= $plano2 ?> -->
+            <li><a class="" data-plano="3">Ton Básico</a></li><!-- <?= $plano3 ?> -->
             <li><a href="https://bit.ly/SerParceiroTon" target="_blank">Renda Extra</a></li>
           </ul>
         </div>
