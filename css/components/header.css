@@ -1,0 +1,132 @@
+.header {
+  width:  100%;
+
+  padding:   .5rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.15); 
+  box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.15);
+  background: white;
+}
+
+.header > .container {
+  display:  flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+.header .logo {
+  max-width: 200px;
+  z-index: 2;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header .desktop-menu li + li {
+  margin-left: 1.5rem;
+}
+
+.header li a {
+  transition: .3s;
+}
+
+.header li a:hover {
+  color: var(--primary-color);
+}
+
+.header li a.selected {
+  color: var(--primary-color);
+}
+
+.header .chamada-wrapper {
+  border-radius:  2rem;
+}
+
+.header .chamada {
+  padding:  1rem 2rem;
+  display: flex;
+  align-items: center;
+
+  background: var(--primary-color);
+  border-radius:  2rem;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.header .chamada:hover {
+  color: white;
+}
+
+.header .chamada p {
+  margin-left: .5rem;
+}
+
+.stroke-current {
+  stroke: currentColor;
+}
+
+nav.mobile {
+  display: none;
+}
+
+@media (max-width: 50rem) {
+  .header .container > a {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  nav.mobile {
+    display: block;
+  }
+
+  nav.mobile ul {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    padding-top: 8rem;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    left: 100%;
+    z-index: 1;
+
+    font-weight: 700;
+    background-color: var(--white-color);
+    transition: all .5s ease-in-out;
+  }
+
+  nav.mobile ul li {
+    width: 100%;
+    display: inline-block;
+  }
+
+  nav.mobile ul li a {
+    display: block;
+    padding: 2rem;
+
+    text-align: center;
+  }
+
+  nav.mobile ul.show{
+      left: 0;
+  }
+
+  nav.mobile .chamada {
+    max-width: 200px;
+
+    margin: 0 auto;
+  }
+
+  nav.mobile .chamada p {
+    margin-left: 1rem;
+  }
+}

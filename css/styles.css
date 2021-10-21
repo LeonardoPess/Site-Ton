@@ -1,0 +1,24 @@
+@import './base/fonts/fonts.css';
+@import './abstracts/variables.css';
+@import './base/animations.css';
+@import './geral.css';
+@import './components/whats-button.css';
+@import './components/form.css';
+@import './components/title.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/button.css';
+@import './components/menuBtn.css';
+@import './components/taxas-mobile.css';
+@import './sections/banner.css';
+@import './sections/escolher-plano.css';
+@import './sections/escolha-maquininha.css';
+@import './sections/bandeiras-aceitas.css';
+@import './sections/planos-taxas.css';
+@import './sections/calculadora.css';
+@import './sections/beneficios.css';
+@import './sections/beneficios2.css';
+@import './sections/clientes.css';
+@import './sections/duvidas.css';
+@import './sections/duvidas2.css';
+

@@ -1,0 +1,23 @@
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: black;
+}
+
+input:focus {
+  outline-color: rgba(0,173,12,1);
+ }
+
+ [type=checkbox], [type=radio] {
+  height: 20px;
+  width: 20px;
+  border-width: 2px;
+  cursor: pointer;
+}

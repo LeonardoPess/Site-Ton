@@ -1,0 +1,82 @@
+.escolher-plano {
+  padding:  2rem 0 2rem 0;
+}
+
+.escolher-plano .escolher-plano-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ .escolher-plano-single {
+  width: 32%;
+  min-width: 360px;
+
+  margin: 1rem .5rem 0 .5rem;
+}
+
+@media (max-width: 48rem) {
+  .escolher-plano .escolher-plano-wrapper {
+    max-width: 500px;
+
+    margin: 0 auto;
+  }
+
+  .escolher-plano-single {
+    width: 100%;
+    min-width: 0;
+  }
+
+ .escolher-plano-single +  .escolher-plano-single {
+   margin-top: 4rem;
+ }
+}
+
+.escolher-plano .selecionar-plano {
+  width: 100%;
+
+  padding: .8rem 0;
+
+  border: 2px solid var(--primary-color);
+  text-align: center;
+  border-radius: .4rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.selecionar-plano.selected {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.escolher-plano-single > p {
+  margin:  1rem 0;
+
+  text-align: center;
+}
+
+.escolher-plano-single .parcelas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  text-align: center;
+  background: var(--secondary-color);
+  border-radius: .5rem;
+}
+
+.escolher-plano-single .parcelas p,
+.escolher-plano-single .parcelas strong  {
+  font-family: gothamrounded;
+}
+
+.escolher-plano-single .parcelas p {
+  font-size: .8rem;
+}
+
+.escolher-plano-single .parcelas strong {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}

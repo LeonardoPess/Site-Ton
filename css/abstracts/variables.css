@@ -1,0 +1,10 @@
+:root {
+  --primary-color: rgba(54,230,26, 1);
+  --secondary-color: #EFF4F8;
+  --white-color: #ffffff;
+  --gray-color: #666;
+  --gray-color-darker: #333;
+
+  --first-type: "gothamrounded", serif;
+  --second-type: 'Roboto', sans-serif;
+}

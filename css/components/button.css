@@ -1,0 +1,27 @@
+.button {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button a {
+  display: inline-block;
+  padding: 1rem 2rem;
+
+  background: var(--primary-color);
+  border-radius: 2rem;
+  font-weight: bold;
+  font-family: gothamrounded;
+  color: var(--white-color);
+  transition: .3s;
+}
+
+.button a:hover,
+.button a:focus,
+.chamada-wrapper:hover,
+.chamada-wrapper:focus{
+  outline: none;
+  box-shadow: 0 0 4px 2px rgb(72 249 36 / 75%);
+}

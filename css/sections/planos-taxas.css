@@ -1,0 +1,99 @@
+.planos-taxas {
+  padding:  4rem 0 2rem 0;
+}
+
+.planos-taxas h2.title {
+  margin-bottom: 1rem;
+}
+
+.regulamento {
+  text-align: center;
+}
+
+.taxa-bandeira-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:  3rem;
+}
+
+.taxa-bandeira-wrapper p {
+  text-align: center;
+}
+
+@media (max-width: 470px) {
+  .taxa-bandeira-wrapper select {
+    margin-top: .5rem;
+  }
+}
+
+.planos-taxas-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:  1.5rem;
+
+  -webkit-box-shadow: 0px 5px 28px -5px rgba(0,0,0,0.2); 
+  box-shadow: 0px 5px 28px -5px rgba(0,0,0,0.2);
+  border-radius: 1rem;
+}
+
+.planos-taxa-single {
+  width: calc(100% / 3);
+
+  padding: 2rem 0;
+
+  text-align: center;
+}
+
+.planos-taxa-single:nth-of-type(2) {
+  border-right: 1px solid #c1cfda;
+  border-left: 1px solid #c1cfda;
+}
+
+.planos-taxas select {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 48rem) {
+  .planos-taxas-wrapper {
+    max-width: 400px;
+
+    margin: 0 auto 1rem;
+    flex-direction: column;
+  }
+
+  .planos-taxa-single {
+    width: 100%;
+  }
+
+  .planos-taxa-single:nth-of-type(2) {
+    border: 0;
+  }
+
+  .planos-taxa-single + .planos-taxa-single  {
+    border-top: 1px solid #c1cfda;
+  }
+}
+
+.planos-taxa-single strong{
+  display: block;
+}
+
+.planos-taxa-single strong:nth-of-type(2) {
+  margin: 1rem 0;
+
+  color:  var(--primary-color);
+  font-size: 2rem;
+  font-family: gothamrounded;
+}
+
+.planos-taxas .container > p:nth-of-type(2) {
+  font-size: .8rem;
+}
+
+.planos-taxas .container > p a {
+  text-decoration: underline;
+}

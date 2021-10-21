@@ -1,0 +1,40 @@
+.duvidas2 {
+  padding:  2rem 0;
+}
+
+.duvidas2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duvidas2-text h2 {
+  font-size: 2.4rem;
+}
+
+.duvidas2-text p {
+  margin: 1rem 0;
+}
+
+.duvidas2-img {
+  max-width: 200px;
+  margin-left: 2rem;
+}
+
+@media (max-width: 620px) {
+  .duvidas2-text h2 {
+    font-size: 2rem;
+  }
+
+  .duvidas2-img {
+    display: none;
+  }
+}
+
+.duvidas2 .button {
+  justify-content: left;
+}
+
+.duvidas2 .button a {
+  color: var(--white-color);
+}

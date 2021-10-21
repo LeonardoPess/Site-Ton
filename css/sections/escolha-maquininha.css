@@ -1,0 +1,110 @@
+.escolha-maquininha {
+  padding:  2rem 0;
+}
+
+.escolha-maquininha .escolha-maquininha-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.escolha-maquininha-single  {
+  width: 28%;
+  min-width: 300px;
+
+  margin: 1rem 2rem;
+}
+
+@media (max-width: 48rem) {
+  .escolha-maquininha-single {
+    width: 60%;
+
+    margin: 1rem 0;
+  }
+}
+
+.maquininha-img img.ativo {
+  animation: show-up 1s forwards;
+}
+
+.escolha-maquininha-single > strong {
+  display: block;
+  margin: .2rem auto;
+
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-family: gothamrounded;
+  text-align: center;
+}
+
+.escolha-maquininha-single .maquininha-valor {
+  text-align: center;
+  font-family: gothamrounded;
+}
+
+.escolha-maquininha-single .maquininha-valor p:first-of-type > span{
+  position: relative;
+}
+
+.escolha-maquininha-single .maquininha-valor p:first-of-type > span::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+
+  position: absolute;
+  top: 50%;
+
+  background: black;
+}
+
+
+.escolha-maquininha-single .maquininha-valor p:last-of-type {
+  margin-top: .2rem;
+}
+
+.escolha-maquininha-single .maquininha-valor p:last-of-type > strong {
+  font-size: 2.6rem;
+}
+
+.escolha-maquininha-single a {
+  width: 100%;
+
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: .5rem 0;
+
+  background: var(--primary-color);
+  text-align: center;
+  color:  black;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  transition: .3s;
+}
+
+.escolha-maquininha-single a:hover,
+.escolha-maquininha-single a:focus {
+  color: white;
+  outline: none;
+  box-shadow: 0 0 4px 2px rgb(72 249 36 / 75%);
+}
+
+.escolha-maquininha-single .maquininha-especificacoes {
+  padding: 1rem 0;
+}
+
+.escolha-maquininha-single .maquininha-especificacoes strong {
+  display: block;
+  margin-bottom:  1rem;
+
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.escolha-maquininha-single .maquininha-especificacoes ul {
+  list-style-type: disc;
+  padding: 0 2rem;
+}
+
+.escolha-maquininha-single .maquininha-especificacoes li + li {
+  margin-top:  .5rem;
+}

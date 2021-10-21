@@ -1,0 +1,370 @@
+.banner {
+  min-height: 560px;
+
+  padding:  6rem 0;
+}
+
+.banner.gigaton-banner {
+  background-image: radial-gradient(1800px 950px at 50% -90%,#20252a 99.8%,#36e51a);
+}
+
+.banner.megaton-banner {
+  background-image: radial-gradient(1800px 950px at 50% -90%,#00ad0c 99.8%,#36e51a);
+}
+
+.banner.tonbasico-banner {
+  background-image: radial-gradient(1800px 950px at 50% -90%,#cdffc7 99.8%,#36e51a);
+}
+
+.banner-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-left,
+.banner-right {
+  font-family: gothamrounded;
+}
+
+.banner-left {
+  position: relative;
+}
+
+.lancamento {
+  padding: .7rem;
+  position: absolute;
+  top: -10px;
+  right: -40px;
+
+  background-color: rgba(255,36,80,1);
+  font-size: .7rem;
+  border-radius: 12px;
+  border-bottom-left-radius: .2rem;
+}
+
+.megaton-banner .lancamento,
+.tonbasico-banner .lancamento {
+  display: none;
+}
+
+.banner-left p {
+  color: white;
+}
+
+.banner-left h1 {
+  color: white;
+  font-size: 5.4rem;
+}
+
+.tonbasico-banner .banner-left p,
+.tonbasico-banner .banner-left h1 {
+  color: #20252A;
+}
+
+.banner-left strong {
+  font-size: 6rem;
+}
+
+.gigaton-banner .banner-left strong {
+  color: var(--primary-color);
+}
+
+.megaton-banner .banner-left strong {
+  color: #FFF129;
+}
+
+.tonbasico-banner .banner-left strong {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.banner-left > p {
+  font-size: 2.6rem;
+}
+
+@media (max-width: 1100px) {
+  .tonbasico-banner .banner-left strong {
+    font-size: 3rem;
+    color: var(--primary-color);
+  }
+}
+
+.banner-left .border {
+  display: inline-block;
+  padding:  1.6rem 1rem;
+  margin-top: 1rem;
+
+  background-color: var(--white-color);
+  color: rgba(32,37,42,1);
+  background: var(--white-color);
+  border-radius: 4rem;
+  border-bottom-right-radius: .8rem;
+  font-size: 1.4rem;
+}
+
+.banner-left .border p {
+  color: black;
+}
+
+.tonbasico-banner .banner-left .border {
+  background: rgba(32,37,42,1);
+}
+
+.tonbasico-banner .banner-left .border p {
+  color: var(--white-color);
+}
+
+.banner-left .border b {
+  color: var(--primary-color);
+}
+
+.banner-right {
+  min-width: 600px;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-right .banner-right-text {
+  margin-top: 4rem;
+}
+
+.banner-right-text a {
+  display: flex;
+  align-items: center;
+
+  line-height: 2.8rem;
+}
+
+.banner-right-text a + a {
+  margin-top: 1rem;
+}
+
+.banner-right-text a::after {
+  content: "";
+  width: calc(100% - 112px);
+  height: 2px;
+
+  position: absolute;
+  margin-left: 12px;
+
+  background-image: linear-gradient(
+  90deg,#fff 33%,hsla(0,0%,100%,0) 0);
+  background-position: bottom;
+  background-size: 15px 2px;
+  background-repeat: repeat-x;
+  transform: 180deg;
+}
+
+.banner-right-text a img{
+  max-height: 73px;
+}
+
+.banner-right-text h6{
+  padding: 0 .5rem;
+
+  z-index: 10;
+
+  color: var(--white-color);
+  font-size: 1.1rem;
+}
+
+.banner.gigaton-banner .banner-right-text h6 {
+  background-color: rgba(32,37,42,1);
+}
+
+.banner.megaton-banner .banner-right-text h6 {
+  background: #00ad0c;
+}
+
+.banner.tonbasico-banner .banner-right-text h6 {
+  background: #cdffc7;
+}
+
+.banner-right-img {
+  width: 98%;
+
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+@media (max-width: 1280px) {
+  .banner {
+    padding:  8rem 0;
+  }
+
+  .banner-left h1 {
+    font-size: 4rem;
+  }
+
+  .banner-left strong {
+    font-size: 4.6rem;
+  }
+
+  .banner-left > p {
+    font-size: 1.8rem;
+  }
+
+  .lancamento {
+    position: absolute;
+    top: -15px;
+    right: -45px;
+  }
+
+  .banner-left .border {
+    font-size: 1.1rem;
+  }
+
+  .banner-right-img {
+    width: 98%;
+  
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    padding:  3rem 0 8rem 0;
+  }
+
+  .banner.gigaton-banner {
+    background-image: radial-gradient(1000px 900px at 50% -40%,#20252a 99.8%,#36e51a);
+  }
+
+  .banner.megaton-banner {
+    background-image: radial-gradient(1000px 900px at 50% -40%,#00ad0c 99.8%,#36e51a);
+  }
+
+  .banner.tonbasico-banner {
+    background-image: radial-gradient(1000px 860px at 50% -40%,#cdffc7 99.8%,#36e51a);
+  }
+
+  .banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner-right {
+    min-width: 0;
+    width: 500px;
+  }
+
+  .banner-right-img {
+    width: 80%;
+  
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .banner-left{
+    text-align: center;
+  }
+  .banner-right {
+    width: 400px;
+  }
+
+  .banner-right-img {
+    width: 100%;
+  
+    position: absolute;
+    top: 50px;
+    right: -30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-right-text a::after {
+    width: 100% ;
+  }
+
+  .banner-right-text a + a {
+    margin-top: 0rem;
+  }
+
+  .banner-right {
+    width: 300px;
+  }
+
+  .banner-right-img {
+    width: 80%;
+  
+    position: absolute;
+    top: 70px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner.gigaton-banner {
+    background-image: radial-gradient(680px 1100px at 50% -82%,#20252a 99.8%,#36e51a);
+  }
+
+  .banner.megaton-banner {
+    background-image: radial-gradient(680px 1100px at 50% -82%,#00ad0c 99.8%,#36e51a);
+
+  }
+
+  .banner.tonbasico-banner {
+    background-image: radial-gradient(680px 1100px at 50% -82%,#cdffc7 99.8%,#36e51a);
+  }
+
+  .banner-left h1 {
+    font-size: 3.4rem;
+  }
+
+  .banner-left strong {
+    font-size: 4rem;
+  }
+
+  .lancamento {
+    top: -20px;
+    right: -40px;
+  }
+
+  .banner-right {
+    width: 250px;
+  }
+
+  .banner-right-img {
+    width: 100%;
+  
+    position: absolute;
+    top: 74px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 490px) {
+  .banner {
+    min-height: 650px;
+  }
+
+  .banner.gigaton-banner {
+    background-image: radial-gradient(680px 1070px at 50% -82%,#20252a 99.8%,#36e51a);
+  }
+
+  .banner.megaton-banner {
+    background-image: radial-gradient(680px 1070px at 50% -82%,#00ad0c 99.8%,#36e51a);
+  }
+
+  .banner.tonbasico-banner {
+    background-image: radial-gradient(680px 1040px at 50% -82%,#cdffc7 99.8%,#36e51a);
+  }
+
+  .lancamento {
+    top: -10px;
+    right: 0px;
+    padding: .5rem;
+
+    font-size: .5rem;
+  }
+}

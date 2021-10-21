@@ -1,0 +1,42 @@
+.taxas-mobile-sticky {
+  min-height: 90px;
+}
+
+.taxas-mobile {
+  display: none;
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+.taxas-mobile label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.taxas-mobile label p {
+  margin-left: .5rem;
+}
+
+@media (max-width: 48rem) {
+  .taxas-mobile {
+    display: none;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: var(--white-color);
+    font-weight: bold;
+  }
+
+  .taxas-mobile-sticky.ativo .taxas-mobile {
+    display: flex;
+  }
+}
+
+@media (max-width: 410px) {
+  .taxas-mobile {
+    font-size: .9rem;
+  }
+}

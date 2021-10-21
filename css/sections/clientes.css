@@ -1,0 +1,60 @@
+.clientes {
+  padding:  2rem 0;
+}
+
+.clientes-single {
+  width: 30%;
+
+  padding: 3rem 2rem;
+  margin: 1rem;
+
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 5px 28px -5px rgba(0,0,0,0.2); 
+  box-shadow: 0px 5px 28px -5px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 48rem) {
+  .clientes-single {
+    width: 100%;
+  }
+}
+
+.cliente-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cliente-img {
+  width: 60px;
+  height: 60px;
+
+  margin-right: 1rem;
+  position: relative;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cliente-img img {
+  max-width: auto;
+  width: 140px;
+
+  position: absolute;
+  top: 0;
+  left: -40px;
+  bottom: 0;
+  right: 0;
+}
+
+.cliente-top strong {
+  font-size: 1.2rem;
+}
+
+.cliente-desc {
+  line-height: 1.6rem;
+}
+
+.clientes .button {
+  margin-top:  2rem;
+}

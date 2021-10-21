@@ -1,0 +1,67 @@
+.bandeiras-aceitas {
+  padding:  2rem 0;
+}
+
+.bandeiras-aceitas-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bandeiras-aceitas-single {
+  height: 24px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 8px;
+}
+
+@media (max-width: 48rem) {
+  .bandeiras-aceitas-wrapper {
+    flex-direction: column;
+  }
+
+  .bandeiras-aceitas-single:nth-of-type(2) {
+    margin-top: 4rem;
+  }
+}
+
+.bandeiras-aceitas-single p {
+  position: relative;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+.bandeiras-aceitas-single p::before {
+  content: "";
+
+  width: 15%;
+  height: 25%;
+
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+
+  border: 1px solid #d5dee8;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.bandeiras-aceitas-single p::after {
+  content: "";
+
+  width: 15%;
+  height: 25%;
+
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+
+  border: 1px solid #d5dee8;
+  border-bottom: 0;
+  border-left: 0;
+}

@@ -1,0 +1,32 @@
+.beneficios2 {
+  padding:  2rem 0;
+
+  background-color: var(--secondary-color);
+}
+
+.beneficios2-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+
+.beneficios2-single {
+  max-width: 290px;
+
+  padding: 2rem;
+}
+
+.beneficios2 .button {
+  margin-top: 2rem;
+}
+
+.beneficios2 h3 {
+  margin: 1rem 0;
+
+  font-size: 1.6rem;
+  font-family: gothamrounded;
+  line-height: 32px;
+}

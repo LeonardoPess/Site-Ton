@@ -1,0 +1,44 @@
+ * {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+
+  padding-top: 40px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+  background: var(--white-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.hide {
+  display: none;
+}
+
+select {
+  cursor: pointer;
+}
