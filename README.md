@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://leonardopess.github.io/Site-Ton/">
+  <a href="https://leonardopess.github.io/Site-Ton/" target="_blank">
     Site Ton
   </a>
 </h1>
